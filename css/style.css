@@ -12,6 +12,10 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+#logo-container i{
+	font-size: 80px;
+	margin:0px;
+}
 body{
 	background-color: #EB5D5D;
 	/*background-color: #92C9E0;*/

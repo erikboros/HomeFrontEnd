@@ -8,10 +8,8 @@
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Roboto:thin,light">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:thin,light">
   
   <style type="text/css">
     
@@ -26,11 +24,9 @@
       <div class="nav-wrapper">
 
         <div class="row" style="margin: 0px; padding-top: 5px;">
-          <div class="">
-             <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons" style="">menu</i></a>
-          </div>
+          <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
           <div class="col s6">
-             <a id="logo-container" href="#" class="brand-logo"><i class="material-icons" style="font-size: 80px; margin:0px;">hotel</i></a>
+             <a id="logo-container" href="#" class="brand-logo"><i class="material-icons">hotel</i></a>
           </div>
           <ul class="right hide-on-med-and-down">
             <li><a href="#">Navbar Link</a></li>
@@ -40,33 +36,20 @@
           </div>
         </div>
         
-        
-
         <ul id="nav-mobile" class="side-nav" style="z-index:999;">
           
           <li><a href="#">Navbar Link</a></li>
           <li><a href="#">Navbar Link</a></li>
         </ul>
-        <!--
-        <div class="row center" style="margin: 0px;">
-          <div class="col s12" style="font-size: 20px;">
-             Bedroom
-          </div>
-        </div>
--->
 
         <div class="nav-content" style="margin-top: 3px;">
-      <ul class="tabs tabs-transparent">
-        <li class="tab"><a class="active" href="#sw">Switches</a></li>
-        <li class="tab"><a  href="#inf">Info</a></li>
-        
-      </ul>
-    </div>
+          <ul class="tabs tabs-transparent">
+            <li class="tab"><a class="active" href="#sw">Switches</a></li>
+            <li class="tab"><a  href="#inf">Info</a></li>
+          </ul>
+        </div>
         
       </div>
-
-
-
 
     </nav>
   </div>
@@ -76,7 +59,7 @@
       
       <div class="row sliderrow themecolor" style="">
         <div class="col s4 rowicon">
-          <img src="fonts/book-shelf (1).svg" style="">
+          <img src="icons/book-shelf.svg" style="">
         </div>
         <div class="col s8 rowslider" style="">
           <input type="range" min="0" max="255" id="1" value="255" class="slider">
@@ -85,7 +68,7 @@
 
       <div class="row buttonrow themecolor" style="">
         <div class="col s4 rowicon">
-          <img src="fonts/lamp.svg" style="">
+          <img src="icons/lamp.svg" style="">
         </div>
         <div class="col s8 rowbutton" style="">
           <button class="buttonon clickbutton" id="onoff">Be</button>
@@ -96,35 +79,35 @@
 
         <div class="row buttonrow themecolor" style="">
         <div class="col s4 rowicon">
-          <img src="fonts/lamp.svg" style="">
+          <img src="icons/lamp.svg" style="">
         </div>
         <div class="col s8 rowbutton" style="">
           <button class="buttonon clickbutton" id="onoff">Be</button>
         </div>
       </div><div class="row buttonrow themecolor" style="">
         <div class="col s4 rowicon">
-          <img src="fonts/lamp.svg" style="">
+          <img src="icons/lamp.svg" style="">
         </div>
         <div class="col s8 rowbutton" style="">
           <button class="buttonon clickbutton" id="onoff">Be</button>
         </div>
       </div><div class="row buttonrow themecolor" style="">
         <div class="col s4 rowicon">
-          <img src="fonts/lamp.svg" style="">
+          <img src="icons/lamp.svg" style="">
         </div>
         <div class="col s8 rowbutton" style="">
           <button class="buttonon clickbutton" id="onoff">Be</button>
         </div>
       </div><div class="row buttonrow themecolor" style="">
         <div class="col s4 rowicon">
-          <img src="fonts/lamp.svg" style="">
+          <img src="icons/lamp.svg" style="">
         </div>
         <div class="col s8 rowbutton" style="">
           <button class="buttonon clickbutton" id="onoff">Be</button>
         </div>
       </div><div class="row buttonrow themecolor" style="">
         <div class="col s4 rowicon">
-          <img src="fonts/lamp.svg" style="">
+          <img src="icons/lamp.svg" style="">
         </div>
         <div class="col s8 rowbutton" style="">
           <button class="buttonon clickbutton" id="onoff">Be</button>
@@ -144,7 +127,7 @@
       
       <div class="row sliderrow themecolor" style="">
         <div class="col s4 rowicon">
-          <img src="fonts/book-shelf (1).svg" style="">
+          <img src="icons/book-shelf.svg" style="">
         </div>
         <div class="col s8 rowslider" style="">
           <input type="range" min="0" max="255" id="1" value="255" class="slider">
@@ -153,7 +136,7 @@
 
       <div class="row buttonrow themecolor" style="">
         <div class="col s4 rowicon">
-          <img src="fonts/lamp.svg" style="">
+          <img src="icons/lamp.svg" style="">
         </div>
         <div class="col s8 rowbutton" style="">
           <button class="buttonon clickbutton" id="onoff">Be</button>
@@ -206,6 +189,7 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+
   <script type="text/javascript">
 
     var buttons = document.getElementsByClassName('clickbutton');
@@ -226,7 +210,7 @@
       buttons[i].onclick = attachOnOffHandler;
     }
     
-
   </script>
+  
   </body>
 </html>
