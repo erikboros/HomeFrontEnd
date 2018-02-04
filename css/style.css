@@ -46,7 +46,7 @@ nav .button-collapse {
 .button-collapse{
 	font-size: 35px;
 }
-.temp{
+.navtemp{
 	text-align:right; 
 	padding-right: 25px; 
 	font-size: 20px;
@@ -55,6 +55,7 @@ nav .button-collapse {
 	padding-top: 0;
 	color: white;
 	margin: auto;
+
 }
 
 .sliderrow{
@@ -79,6 +80,7 @@ nav .button-collapse {
 .rowbutton{
 	text-align: right;
 }
+
 input[type=range]{
 	height: 60px;
 	padding: 10px 15px 0px 0px;
@@ -174,23 +176,95 @@ button{
     background-color: rgba(0,0,0,0);
     color: white;
 }
-@media only screen and (max-width: 601px) {
+
+@media only screen and (max-width: 340px) {
   	.tile{
-    	height: 50vw;
+    	height: 47vw;
+	}
+	.tile .l{
+		font-size:45px;
+		margin:0px;
+		text-align:center;
+	}
+	.tile .xs{
+		font-size:10px; 
+		margin:0px;
+		text-align:center;
+	}
+	.tile .m{
+		font-size:30px;
+		margin:0px;
+		text-align:center;
+	}
+}
+@media only screen and (min-width: 341px) {
+  	.tile{
+    	height: 47vw;
+	}
+	.tile .l{
+		font-size:70px;
+		margin:0px;
+		text-align:center;
+	}
+	.tile .xs{
+		font-size:10px; 
+		margin:0px;
+		text-align:center;
+	}
+	.tile .m{
+		font-size:40px;
+		margin:0px;
+		text-align:center;
 	}
 }
 @media only screen and (min-width: 601px) {
   	.tile{
     	height: 33.33333vw;
 	}
+	.tile .l{
+		font-size:80px;
+		margin:0px;
+		text-align:center;
+	}
+	.tile .xs{
+		font-size:10px; 
+		margin:0px;
+		text-align:center;
+	}
+	.tile .m{
+		font-size:45px;
+		margin:0px;
+		text-align:center;
+	}
+
 }
 @media only screen and (min-width: 993px) {
   	.tile{
     	height: 25vw;
+	}
+	.tile .l{
+		font-size:90px;
+		margin:0px;
+		text-align:center;
+	}
+	.tile .xs{
+		font-size:15px; 
+		margin:0px;
+		text-align:center;
+	}
+	.tile .m{
+		font-size:50px;
+		margin:0px;
+		text-align:center;
 	}
 }
 .tile{
     margin: 5px;
     padding:5px;
     box-shadow: 1px 2px 4px rgba(0,0,0,0.3);
+}
+
+.icon:before {
+	font-family: 'MeteoconsRegular';
+	content: attr(data-icon);
 }

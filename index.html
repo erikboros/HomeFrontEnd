@@ -12,6 +12,7 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:thin,light">
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="fonts/meteocons/meteocons.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
   
   
@@ -30,7 +31,7 @@
           <ul class="right hide-on-med-and-down">
             <li><a href="#">Navbar Link</a></li>
           </ul>
-          <div class="col s3 temp right" style="">
+          <div class="col s3 navtemp right roomtemp">
              22°
           </div>
         </div>
@@ -74,8 +75,7 @@
       </div>
     </div>
 
-    <!--*************************************************************-->
-
+    <!--Place Holder************************************************-->
       <div class="row buttonrow themecolor" style="">
       <div class="col s4 rowicon">
         <img src="icons/lamp.svg" style="">
@@ -112,8 +112,7 @@
         <button class="buttonon clickbutton" id="onoff">Be</button>
       </div>
     </div>
-    
-    <!--*************************************************************-->
+    <!--Place Holder************************************************-->
 
 
   </div>
@@ -124,11 +123,26 @@
   
     <div class="row" style="min-height: 200px; margin:5px;" >
 
-      <div class="col s6 m4 l3" style="padding:0px;">
-        <div class="tile themecolor">
-          asd
+      <!-- Temperature -->
+      <div class="col s6 m4 l3" style="padding:0px; ">
+        <div class="tile themecolor" style="">
+          <p class="l roomtemp" >22°</p>
+          <p class="xs" >outside</p>
+          <p class="m" style="">
+            <span class="icon weathericon outertemp" data-icon="I">18°</span>
+          </p>
         </div>
       </div>
+
+      <!-- Generic Tile -->
+      <div class="col s6 m4 l3" style="padding:0px;">
+        <div class="tile themecolor ">
+          Tile Content
+        </div>
+      </div>
+      
+
+      <!--Place Holder************************************************-->
       <div class="col s6 m4 l3" style="padding:0px;">
         <div class="tile themecolor ">
           asd
@@ -144,11 +158,7 @@
           asd
         </div>
       </div>
-      <div class="col s6 m4 l3" style="padding:0px;">
-        <div class="tile themecolor ">
-          asd
-        </div>
-      </div>
+      <!--Place Holder************************************************-->
       
   </div>
 
@@ -218,7 +228,9 @@
       buttons[i].onclick = attachOnOffHandler;
     }
     
-
+    /*
+    * .roomtemp .outertemp .weathericon
+    */
 
   </script>
   
