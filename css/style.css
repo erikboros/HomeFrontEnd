@@ -40,6 +40,7 @@ nav {
 nav .button-collapse {
     height: 64px;
 }
+
 #sidenav-overlay{
 	z-index: 996;
 }
