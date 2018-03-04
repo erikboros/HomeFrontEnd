@@ -18,12 +18,14 @@
 	margin:0px;
 }
 body{
+	/*background-color: #fff3c6;*/
 	background-color: #EB5D5D;
 	/*background-color: #92C9E0;*/
     width:100%;
     font-family:'Roboto', thin;
 }
 .themecolor{
+	/*background-color: #ffdd87;*/
 	background-color:#C63D4B;
 	/*background-color: #38B5CF;*/
 }
@@ -54,9 +56,9 @@ nav .button-collapse {
 }
 .section {
 	padding-top: 0;
+	padding-bottom: 0;
 	color: white;
 	margin: auto;
-
 }
 
 .sliderrow{

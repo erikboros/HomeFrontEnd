@@ -1,0 +1,13 @@
+tables: users, rooms, devices, data (?Rights: UserID|RoomID)
+
+users:
+ID|AccName|Pw|Name
+
+rooms:
+ID|Name
+
+devices:
+ID|Room|Type|Value
+
+data:
+ID|Type|Value (?Room)
